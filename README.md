@@ -9,4 +9,10 @@ lo busque en la API que dejamos y luego lo cargue en la base de datos</p>
 <li>Listar libros por idioma</li>
 <p>Tambien usamos distintas clases, como record,interfaces,importamos librerias para ayudarnos,
 hicimos uso de algunas derived Queries</p>
+<p>Luego completamos el proyecto con algunos pedidos extras, como por ejemplo listar el top 10 de los libros, o buscar por el nombre del autor,
+el proyecto en si fue bastante dificil, me llevo a rompero el codigo muchas veces, a buscar informacion.
+Me llevo a usar herramientas externas como lo es google, a buscar info y demas</p>
+<h2>https://gutendex.com/books/</h2>
+<p>Usamos esa url para solicitar los libros y luego guardarlos en la base de datos</p>
+<h2>Usamos pgAdmin como base de datos asi que tuvimos que instalar las dependecias requeridas</h2>
 
