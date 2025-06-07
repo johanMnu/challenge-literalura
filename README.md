@@ -15,4 +15,5 @@ Me llevo a usar herramientas externas como lo es google, a buscar info y demas</
 <h2>https://gutendex.com/books/</h2>
 <p>Usamos esa url para solicitar los libros y luego guardarlos en la base de datos</p>
 <h2>Usamos pgAdmin como base de datos asi que tuvimos que instalar las dependecias requeridas</h2>
+<p>Asi como Spring initializr para crear lo que era la carpeta donde ibamos a desarrollar el proyecto, lo recomiendo mucho ya que ayuda a organizar mejor todo</p>
 
