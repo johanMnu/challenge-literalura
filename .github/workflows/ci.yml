@@ -39,7 +39,7 @@ jobs:
           DB_USERNAME: postgres
           DB_PASSWORD: test_password
         run: |
-          printf '0\n' | timeout 120s ./mvnw --batch-mode -DskipTests spring-boot:run > /tmp/literalura.log 2>&1 || {
+          printf '0\n' | timeout 80s java -jar target/*.jar --spring.main.web-application-type=none > /tmp/literalura.log 2>&1 || {
             tail -n 150 /tmp/literalura.log
             exit 1
           }
